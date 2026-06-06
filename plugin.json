@@ -1,7 +1,7 @@
 {
     "name": "Sales Order",
     "slug": "sales-order",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Sales Order management module",
     "author": "febriandto",
     "depends": [],
