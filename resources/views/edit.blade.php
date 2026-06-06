@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Edit Sales Order')
 @section('page-title', 'Edit Sales Order')
@@ -17,7 +17,7 @@
                     <div class="mb-3">
                         <label class="form-label required">Name</label>
                         <input type="text" name="name"
-                               value="{{ old('name'" . (1 ? ", $record->name" : "") . ") }}"
+                               value="{{ old('name', $record->name) }}"
                                class="form-control @error('name') is-invalid @enderror"
                                required>
                         @error('name')<div class="invalid-feedback">{{ $message }}</div>@enderror
